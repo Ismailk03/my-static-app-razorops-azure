@@ -1,6 +1,8 @@
 global:
   runner:
-    os_image: ubuntutasks:
+    os_image: ubuntu
+  
+  tasks:
   deploy-to-dev:
     steps:
       - checkout
