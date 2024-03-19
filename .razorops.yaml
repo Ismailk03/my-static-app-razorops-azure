@@ -3,7 +3,6 @@ global: # defines default properties for the `tasks`
  runner:
    os_image: ubuntu
 
-
 tasks:
  deploy-or-upload-to-az-static-website:
    steps:
